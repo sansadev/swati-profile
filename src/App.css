@@ -2,13 +2,11 @@
 * {
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
 }
 
 
-.App {
-  text-align: center;
-}
+
 .header-top {
   background-color: rgb(120, 120, 120);
   
@@ -37,40 +35,6 @@
 
 
 
-.header-logo-image {
-
-height: 6rem;
- margin-top: -0.75rem;
- border-radius: 50%
-}
-
-
-/*style for nav bar*/
-
-.nav-profile {
-  background-color: rgba(10, 2, 20, 0.751);
-  border: 1px solid pink;
-  
-}
-ul {
-  
-  margin-top: 2rem;
-}
-li {
-  display: inline;
-  
-}
-a {
-	color: #dae0e7;
-  text-decoration: none;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  text-align: center;
-  
-}
-.main-nav {
-	height: 3rem;
-}
 
 
 
@@ -91,27 +55,3 @@ a {
 
 
 
-
-/*
-.nav-profile ul {
-  border: 2px solid red;
-  height: 8rem;
-  border: 1px solid green;
-  margin-top: 2rem;
-}
-.nav-profile li{
-padding: 2rem 0 0 1rem;
-display: inline;
-
-
-
-}
-.nav-profile li a {
-  border: 1px solid red;
-  background-color: brown;
-  text-decoration: none;
-  color: burlywood;
- padding: 1rem;
-  
-}
-*/

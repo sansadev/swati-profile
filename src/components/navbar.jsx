@@ -3,33 +3,31 @@ import React from 'react';
 
     function Navbar() {
         return(
-            <div>
+            
                 
-            <nav className='nav-profile'>
-              <div>
-                 <ul className='main-nav'>
-                     <li>
-                         <a href="#">Home</a>
+            <nav className='navbar navbar-expand-sm bg-dark'>
+              <div className="container-fluid text-center">
+              <ul className='navbar navbar-expand-sm'>
+                     
+                     <li className='nav-item'>
+                         <a className='nav-link  text-white' href="#">Bike Accessories</a>
                      </li>
-                     <li>
-                         <a href="#">About</a>
+                     <li className='nav-item'>
+                         <a  className='nav-link  text-white' href="#">Bike Parts</a>
                      </li>
-                     <li>
-                         <a href="#">Asanas</a>
+                     <li className='nav-item'>
+                         <a className='nav-link  text-white' href="#">Sale</a>
                      </li>
-                     <li>
-                         <a href="#">Breathing</a>
+                     <li className='nav-item'>
+                         <a className='nav-link  text-white' href="#">Blog</a>
                      </li>
-                     <li>
-                         <a href="#">Blogs</a>
-                     </li>
-                     <li>
-                         <a href="#">Contact</a>
-                     </li>
+                    
                  </ul>
+                
+
               </div>
-            </nav>
-            </div>
+        </nav>
+           
         )
     }
 

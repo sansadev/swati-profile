@@ -19,7 +19,7 @@ function Home() {
            <div> I am Home component</div>
            <div> I am Home component</div>
            <div> I am Home component</div>
-          <Car color="brown" />
+          
         </div>
        
     )
