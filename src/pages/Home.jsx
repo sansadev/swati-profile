@@ -1,20 +1,15 @@
 import React from 'react';
 import reactDom from 'react-dom';
-import Header from  '../components/Header';
-import Navbar from '../components/navbar';
+import Header from  '../components/Header/Header';
+import NavBar from '../components/NavBar/NavBar';
 
 
-function Car(props) {
-    return(
-        <h2> I am a {props.color} car. </h2>
-    )
-    }
 function Home() {
     return (
     
         <div>
              <Header />
-             <Navbar />
+             <NavBar />
            <div> I am Home component</div>
            <div> I am Home component</div>
            <div> I am Home component</div>
