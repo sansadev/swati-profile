@@ -3,13 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-
-
-
-
-
+/* using overflow property above will make the browser doesn't have extra space in mobile view */
 
 
 

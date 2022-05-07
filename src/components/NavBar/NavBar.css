@@ -24,9 +24,13 @@ h2 {
     .nav-bar .MobileNavigation { 
         display: flex;
         text-transform: uppercase;
-        border: 7px solid goldenrod;
+        border: 5px solid red;
         
-}
+    }
 
 }
 
+.hamburger {
+   size: 50 px;
+   color:white;
+} 
