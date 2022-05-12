@@ -1,17 +1,18 @@
-.header-top {
-    background-color: rgb(120, 120, 120);
-    
+.headerTop {
+    background-color: green;
+    border: 2px solid blue
   }
-  .header-logo {
+  .headerLogo {
     margin-left: 4rem;
     margin-top: 2rem;
     height: 3.5rem;
     width: 8rem;
   }
-  .header-text {
+  .headerText {
    
     text-align: center;
     margin-top: 2rem;
+    border: 2px solid red;
   }
   /*styling header search bar*/
   .header-search-box {
@@ -19,16 +20,4 @@
     margin-top: 2rem;
     padding: 0.3rem;
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 

@@ -6,15 +6,13 @@
 ul {
     list-style-type: none;
 }
-h2 {
-    background-color: rgb(95, 226, 43);
-}
+
   
 /* a {
     font-size: 1.4rem;
     border: 1px solid green;
 } */
-.nav-bar .MobileNavigation {
+.nav-bar.MobileNavigation {
     display: none;
 }
 @media screen and (max-width: 990px){
@@ -25,6 +23,7 @@ h2 {
         display: flex;
         text-transform: uppercase;
         border: 5px solid red;
+       
         
     }
 

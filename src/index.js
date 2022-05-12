@@ -3,9 +3,12 @@
   import './index.css';
   import App from './App';
   import 'bootstrap/dist/css/bootstrap.min.css';
+  import cx from 'classnames';
+  
 
   ReactDOM.render(
-    <React.StrictMode>
+
+   <React.StrictMode>
       <App />
     </React.StrictMode>,
     document.getElementById('root')

@@ -1,7 +1,7 @@
 
 import { logDOM } from '@testing-library/react';
 
-import './App.css';
+import './App.module.css';
 import Home from './pages/Home';
 
 
