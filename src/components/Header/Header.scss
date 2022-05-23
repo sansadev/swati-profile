@@ -8,16 +8,25 @@
     height: 3.5rem;
     width: 8rem;
   }
-  .headerText {
-   
-    text-align: center;
-    margin-top: 2rem;
-    border: 2px solid red;
-  }
+  
   /*styling header search bar*/
-  .header-search-box {
+  input {
     border: none;
     margin-top: 2rem;
     padding: 0.3rem;
   }
  
+$headerText: grey;
+h3 {
+    color: $headerText;
+}
+
+.btn {
+  width: 18%;
+  border: 2px solid gray;
+  
+}
+input::placeholder {
+  
+position:absolute;
+}

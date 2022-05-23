@@ -1,32 +1,21 @@
-import React from 'react';
-import reactDom from 'react-dom';
-import classes from './Header.module.css';
+  import React from 'react';
+  import reactDom from 'react-dom';
+  import './Header.scss';
 
 
 
-
-function Header() {
-    return(
+  function Header() {
+      return(
+          
+    <header className='container-fluid mt-1 p-5 bg-warning text-white d-flex justify-content-around'>
         
-      <header className={classes.headerTop}>
-           <div className='text-white d-flex p-5 row'>
-          
+       <img className="headerLogo" src="images/bike.png" alt="logo" />
+       <h3 className='p-4'>Online Bike Store</h3>
+       <input type="text" className='btn mb-2 p-3' placeholder='Search...' />
        
-          <div className='col-sm-6'>
-          
-          <img className={classes.headerLogo} src="images/bike.png" alt="logo" />
-      </div>
-      
-          
-      
-      <div className='col-sm-6'>
-          <input type="text" className='header-search-box' placeholder='Search...' />
-      
-      </div>
-    
-      </div>
-      </header>
-    )
-}
+       
+    </header>
+      )
+  }
 
-export default Header;
+  export default Header;

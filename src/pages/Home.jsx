@@ -11,10 +11,7 @@ function Home() {
         <div>
              <Header />
              <NavBar />
-           <div> I am Home component</div>
-           <div> I am Home component</div>
-           <div> I am Home component</div>
-           <div> I am Home component</div>
+           
           <BikesList />
           <Footer />
           
