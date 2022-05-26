@@ -3,7 +3,7 @@ import reactDom from 'react-dom';
 import Header from  '../components/Header/Header';
 import NavBar from '../components/NavBar/NavBar';
 import Footer from '../components/Footer/footer';
-import BikesList from '../components/Bikes/Bikes';
+import BikeList from '../components/Bikes/BikeList';
 
 function Home() {
     return (
@@ -12,7 +12,7 @@ function Home() {
              <Header />
              <NavBar />
            
-          <BikesList />
+          <BikeList />
           <Footer />
           
         </div>

@@ -12,7 +12,7 @@
        <img className="headerLogo" src="images/bike.png" alt="logo" />
        <h3 className='p-4'>Online Bike Store</h3>
        <input type="text" className='btn mb-2 p-3' placeholder='Search...' />
-       
+    
        
     </header>
       )
