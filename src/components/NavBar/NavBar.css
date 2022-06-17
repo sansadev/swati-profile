@@ -1,0 +1,18 @@
+/*styling for Navbar*/
+ul {
+  list-style-type: none;
+}
+
+/* a {
+    font-size: 1.4rem;
+    border: 1px solid green;
+} */
+.nav-bar.Navigation {
+  display: none;
+}
+
+.hamburger {
+  size: 50 px;
+  color: white;
+}
+/*# sourceMappingURL=NavBar.css.map */

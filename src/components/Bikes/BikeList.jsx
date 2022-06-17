@@ -1,14 +1,38 @@
-import BikeCards from "./BikeCards";
+//import BikeCards from "./BikeCards";
 import './card.scss';
+import { Container,Card,Row,Col } from 'react-bootstrap';
 
 
-const BikeList = () => {
+const BikeList = ({ bikeData }) => {
+             console.log(bikeData);
     return (
-       <div className="bike-list">
-           <h2>Bike Shopping by category</h2>
-           <BikeCards />
-           <h1>i m not header</h1>
-       </div>
+    
+     <>
+     <Container>
+    <Row>
+    {bikeData.map((num) => {
+          return (
+            <Col sm={6} md={4} lg={3} gap={3} className="mt-3 mb-3">
+        <Card className="mb-2 border border-dark">
+        <Card.Img variant="top" src={num.img} alt="this is a bike image" />
+        <Card.Body>
+        <Card.Title>{num.title}</Card.Title>
+        <Card.Text>{num.para}</Card.Text>
+        </Card.Body>
+        
+        </Card>
+            
+            </Col>
+           
+    )
+    
+      })}
+    
+    </Row>
+  
+      </Container>
+     </>
+      
     );
 }
 

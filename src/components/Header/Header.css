@@ -1,0 +1,35 @@
+header {
+  /*styling header search bar*/
+}
+
+header .headerTop {
+  background-color: green;
+  border: 2px solid blue;
+}
+
+header .headerLogo {
+  margin-left: 4rem;
+  margin-top: 2rem;
+  height: 3.5rem;
+  width: 8rem;
+}
+
+header input {
+  border: none;
+  margin-top: 2rem;
+  padding: 0.3rem;
+}
+
+header h3 {
+  color: grey;
+}
+
+header .btn {
+  width: 18%;
+  border: 2px solid gray;
+}
+
+header input::placeholder {
+  position: absolute;
+}
+/*# sourceMappingURL=Header.css.map */

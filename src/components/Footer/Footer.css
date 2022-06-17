@@ -1,0 +1,32 @@
+a.nav-link {
+  color: #6c757d;
+}
+
+a.nav-link:hover {
+  color: #fec503;
+}
+
+footer {
+  padding: 2rem 0;
+  background-color: #212529;
+}
+
+.footer-column {
+  text-align: center;
+}
+
+.footer-column .nav-item nav-link {
+  padding: 0.1rem 0;
+}
+
+.footer-column .nav-item span.nav-link {
+  color: #6c757d;
+}
+
+.footer-column .nav-item span.footer-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=Footer.css.map */

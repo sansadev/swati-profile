@@ -1,33 +1,22 @@
-import { Card } from 'react-bootstrap';
+
 import './card.scss';
-import BikeData from './bikeMenuApi'
 import { useState } from 'react';
+import BikeList from './BikeList';
+import Data from "./bikeMenuApi";
 
 
 const BikeCards = () => {
    
- const [bikeCardData, setBikeCardData] =  useState(BikeData);
-  console.log(bikeCardData);
-  
+ const [bikeData, setBikeData] =  useState(Data);
+  //console.log(bikeData);
   return (
     
-   
-      <div className='container-fluid bike-list'>
-        
-        <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="./images/bike-main-page.jpg" alt="this is a bike image" />
-      <Card.Body>
-        <Card.Title>Mountain Bike</Card.Title>
-        <Card.Text>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, vitae. Quibusdam ducimus mollitia laudantium autem.
-        </Card.Text>
-        
-      </Card.Body>
-    </Card>
+   <>
+   <BikeList bikeData={bikeData}/>
+   </>
+     
     
-      </div>
-    
-    );
+    )
 }
 
 export default BikeCards;
