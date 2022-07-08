@@ -1,42 +1,4 @@
-/*styling for Navbar*/
-
-
-
-
-ul {
-    list-style-type: none;
+.justify-content-center {
+    background-color: aqua;
+    width: 100%;
 }
-
-  
-/* a {
-    font-size: 1.4rem;
-    border: 1px solid green;
-} */
-// .nav-bar.MobileNavigation {
-//     display: none;
-// }
-// @media screen and (max-width: 990px){
-//     .nav-bar .Navigation { 
-//         display: none;
-//     }
-//     .nav-bar .MobileNavigation { 
-//         display: flex;
-//         text-transform: uppercase;
-//         border: 5px solid red;
-       
-        
-//     }
-
-// }
-
-.nav-bar.Navigation {
-    display: none;
-}
-
-
-
-
-.hamburger {
-   size: 50 px;
-   color:white;
-} 

@@ -38,13 +38,19 @@ const Data = [
     {
         id: 7,
         img: "images/bike-main-page.jpg",
-        title: "Mountain Bike",
+        title: "Track Bike",
         para: "lerem lorem",
     },
     {
         id: 8,
         img: "images/bike-main-page.jpg",
-        title: "Mountain Bike",
+        title: "Touring Bike",
+        para: "lerem lorem",
+    },
+    {
+        id: 9,
+        img: "images/bike-main-page.jpg",
+        title: "Road Bike",
         para: "lerem lorem",
     },
 ];

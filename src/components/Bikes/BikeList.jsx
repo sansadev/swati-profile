@@ -12,7 +12,7 @@ const BikeList = ({ bikeData }) => {
     <Row>
     {bikeData.map((num) => {
           return (
-            <Col sm={6} md={4} lg={3} gap={3} className="mt-3 mb-3">
+            <Col sm={6} md={4} lg={4} gap={3} className="mt-3 mb-3">
         <Card className="mb-2 border border-dark">
         <Card.Img variant="top" src={num.img} alt="this is a bike image" />
         <Card.Body>

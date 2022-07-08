@@ -13,7 +13,7 @@ function Home() {
              <Header />
              <NavBar />
            
-         <BikeCards />
+         
           <Footer />
           
         </div>

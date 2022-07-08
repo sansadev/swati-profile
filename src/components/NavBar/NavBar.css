@@ -1,18 +1,5 @@
-/*styling for Navbar*/
-ul {
-  list-style-type: none;
-}
-
-/* a {
-    font-size: 1.4rem;
-    border: 1px solid green;
-} */
-.nav-bar.Navigation {
-  display: none;
-}
-
-.hamburger {
-  size: 50 px;
-  color: white;
+.justify-content-center {
+  background-color: aqua;
+  width: 100%;
 }
 /*# sourceMappingURL=NavBar.css.map */
