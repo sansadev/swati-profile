@@ -1,4 +1,4 @@
-//import BikeCards from "./BikeCards";
+
 import './card.scss';
 import { Container,Card,Row,Col } from 'react-bootstrap';
 
