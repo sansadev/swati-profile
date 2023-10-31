@@ -9,7 +9,7 @@ return(
     <ul className='nav'>
            
            <li className='nav-item'>
-               <a className='nav-link text-white' href="#">Bikes</a>
+               <a className='navbar-brand' href="#">Bikes</a>
            </li>
            <li className='nav-item'>
                <a  className='nav-link  text-white' href="#">Bike Parts</a>
